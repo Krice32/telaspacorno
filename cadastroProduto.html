@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Produtos</title>
+    <link rel="stylesheet" href="estilo/cadastroFuncionario.css">
+</head>
+<body>
+    <div id="nav-placeholder">
+
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <span>Cadastro de Produtos</span>
+            <button onclick="openModal()" id="new">Incluir</button>
+        </div>
+
+        <div class="divTable">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Nome Produto</th>
+                        <th>Preço</th>
+                        <th>Quantidade</th>
+                        <th class="acao">Editar</th>
+                        <th class="acao">Excluir</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="popup-container">
+            <div class="popup">
+              <form>
+                <label for="m-codigoProduto">Código</label>
+                <input id="m-codigoProduto" type="text" required />
+      
+                <label for="m-nomeProduto">Nome Produto</label>
+                <input id="m-nomeProduto" type="text" required />
+
+                <label for="m-precoProduto">Preço</label>
+                <input id="m-precoProduto" type="text" required />
+
+                <label for="m-quantidadeProduto">Quantidade</label>
+                <input id="m-quantidadeProduto" type="number" required />
+      
+                <button id="btnSalvar">Salvar</button>
+              </form>
+            </div>
+          </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="script/cadastroProduto.js"></script>
+    <script src="script/navbar.js"></script>
+</body>
+</html>

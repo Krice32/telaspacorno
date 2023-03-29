@@ -1,0 +1,80 @@
+/* Definição de estilos para o header */
+
+*
+{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black
+} 
+
+  #logo
+{
+    width:auto;
+    height:60px;
+}
+  /* Estilização do formulário */
+  #containerCadastro {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px #ddd;
+  }
+  
+  /* Definição dos estilos para o h1 */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilização dos inputs */
+  input[type=text], input[type=email], input[type=tel], input[type=password], select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilização do botão de envio */
+  button[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Estilização das colunas */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  /* Estilização do fundo do body */
+  body {
+    background-color: #930406
+  }
+  
+  .form-control{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+  }
+  
